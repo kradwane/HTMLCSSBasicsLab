@@ -1,0 +1,17 @@
+
+
+
+
+#main div{
+  height: 50px;
+  background-color:black;
+  font-size: 20px;
+  color: gray;
+  box-sizing: border-box;
+  line-height:50px
+}
+
+
+#main{
+  transform: rotate(-90deg);
+}

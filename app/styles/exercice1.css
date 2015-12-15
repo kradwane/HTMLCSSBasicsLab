@@ -1,0 +1,60 @@
+
+
+
+
+
+.blocks > div
+{
+  background: Cornsilk ;
+  color:black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  padding: 5px;
+  border: 1px solid black;
+  font-family: 'Tohoma';
+  transform-origin: 50% 50%;
+}
+
+
+.blocks
+{
+  transform-origin: 450px 150px;
+  transform:         rotate(25deg);
+}
+
+#one
+{
+  -webkit-transform: translate(362px, 251px);
+  -moz-transform:    translate(362px, 251px);
+  -ms-transform:     translate(362px, 251px);
+  -o-transform:      translate(362px, 251px);
+  transform:         translate(362px, 251px);
+}
+
+#two
+{
+  -webkit-transform: translate(251px, 362px) rotate(90deg);
+  -moz-transform:    translate(251px, 362px) rotate(90deg);
+  -ms-transform:     translate(251px, 362px) rotate(90deg);
+  -o-transform:      translate(251px, 362px) rotate(90deg);
+  transform:         translate(251px, 362px) rotate(90deg);
+}
+
+#three
+{
+  -webkit-transform: translate(140px, 251px) rotate(180deg);
+  -moz-transform:    translate(140px, 251px) rotate(180deg);
+  -ms-transform:     translate(140px, 251px) rotate(180deg);
+  -o-transform:      translate(140px, 251px) rotate(180deg);
+  transform:         translate(140px, 251px) rotate(180deg);
+}
+
+#four
+{
+  -webkit-transform: translate(251px, 140px) rotate(270deg);
+  -moz-transform:    translate(251px, 140px) rotate(270deg);
+  -ms-transform:     translate(251px, 140px) rotate(270deg);
+  -o-transform:      translate(251px, 140px) rotate(270deg);
+  transform:         translate(251px, 140px) rotate(270deg);
+}
